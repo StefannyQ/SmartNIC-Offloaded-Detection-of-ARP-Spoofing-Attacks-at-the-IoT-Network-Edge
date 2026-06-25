@@ -1,0 +1,15 @@
+# Raw and intermediate data -- never committed (see data/README.md)
+data/*
+!data/README.md
+
+# Generated outputs -- never committed (see outputs/README.md)
+plots/
+modeling/
+p4_validation/
+
+# Python
+__pycache__/
+*.pyc
+
+# Logs
+*.log
